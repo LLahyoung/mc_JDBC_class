@@ -1,0 +1,11 @@
+select * from EMPLOYEES;
+
+select * from DEPARTMENTS;
+
+select department_id from EMPLOYEES;
+
+select department_id, commission_pct from EMPLOYEES where department_id = 80;
+
+delete from gisaTBL;
+
+select count(*) from gisaTBL;
